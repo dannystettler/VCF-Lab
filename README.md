@@ -100,11 +100,9 @@ Source with full information:  https://williamlam.com/2026/01/disable-http-range
 
 ### Download the VCF Build Files
 
-The easiest way to download all the files and create the structure for an offline depot its to use the powershell script written by William Lam. I've modified it to be able to configure the release to be downloaded. See the first few lines of the script.
+The easiest way to download all the files and create the structure for an offline depot its to use the powershell script written by William Lam. I've modified it to be able to configure the release to be downloaded. See the first few lines of the script. Script: [https://github.com/dannystettler/VCF-Lab/blob/main/setup_vcf9x_offline_depot.ps1]
 
 To run the script you have to be on the Broadcom VPN and have Powershell installed. On Mac install Powershell with Homebrew and start it with ``` pwsh  ```
-
-Download the script [https://github.com/dannystettler/VCF-Lab/blob/main/setup_vcf9x_offline_depot.ps1]
 
 After downloaded transfer the complete folder structure to the prepared webserver the direectory PROD needs to be the first layer under the document root. 
 
