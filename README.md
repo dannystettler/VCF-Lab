@@ -8,8 +8,10 @@ There are several ways for hosting a Offline Depot. My preferred way is to use m
 
 ### Setting up Synology Depot
 
-- Install and start **Web Station Package**
-- Create a new **Web Service** 
+- Install and start *Web Station Package*
+- Create a new *Web Service*
+  - *Static Website*
+  - 
 
 
 ### Download the VCF Build Files
