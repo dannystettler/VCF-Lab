@@ -90,7 +90,7 @@ location /PROD/ {
 
 #### 7. Restart Nginx backend
 
-```s ynosystemctl restart nginx ```
+```synosystemctl restart nginx ```
 
 
 
