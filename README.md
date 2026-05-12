@@ -36,12 +36,12 @@ sudo su -
 cd /usr/local/etc/nginx/sites-available
 grep <port number of webservice> *
 ```
-<img width="750" height="55" alt="image" src="https://github.com/user-attachments/assets/7aafd490-2e0e-4e10-90cc-3ff63d0fb80d" style="border: 2px solid grey;" />
+<img width="750" height="55" alt="image" src="https://github.com/user-attachments/assets/7aafd490-2e0e-4e10-90cc-3ff63d0fb80d"  />
 
 #### 3. Retrieve content of file (*.w3conf)
 ```cat <file name>```
 
-<img width="852" height="383" alt="image" src="https://github.com/user-attachments/assets/e5187202-e832-4531-a961-6b66bc1a23aa" />
+<img width="852" height="383" alt="image" src="https://github.com/user-attachments/assets/e5187202-e832-4531-a961-6b66bc1a23aa" style="border: 2px solid grey;" />
 
 
 
