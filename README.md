@@ -54,6 +54,9 @@ Retrieve the content from the just retreived path information by:
 
 ```cat ./../<path from file>```
 
+<img width="1436" height="179" alt="image" src="https://github.com/user-attachments/assets/e9508741-1346-49fe-8691-32a1236e3d24" />
+
+
 
 
 
