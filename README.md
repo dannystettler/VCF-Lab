@@ -49,7 +49,10 @@ and look for the very last include statement, which in my example is:
 
 
 
-#### 4. 
+#### 4. Get content of the retrieved conf file path
+Retrieve the content from the just retreived path information by:
+```cat ./../<path from file>```
+
 
 
 
