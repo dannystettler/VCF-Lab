@@ -10,11 +10,18 @@ There are several ways for hosting a Offline Depot. My preferred way is to use m
 
 - Install and start *Web Station Package*
   
-- Create a new *Web Service* with the folowing parameters:
+- Create a new *Web Service* with the folowing settings:
   - Service Type: *Static Website*
-  - Name & Description: *vcf-depot* (up to you)
+  - Name & Description: *vcf-depot* (example)
   - Document Root: *file location*
-- 
+  - HTTP back-end server: *Nginx*
+ 
+- Create a new *Web Portal* with the following settings:
+  - Select *Web Service Portal*
+  - Service: *vcf-depot*
+  - Portal type: *Port-based*
+  - Port: HTTP: (free portnumber -> e.g 9100)
+
 
 ### Download the VCF Build Files
 
