@@ -50,7 +50,7 @@ and look for the very last include statement, which in my example is:
 
 #### 4. Retrieve path to the configuration file which needs to be created and modified
 
-```cat ./../<path from file>```
+``` cat ./../<path from file>```
 
 <img width="1436" height="179" alt="image" src="https://github.com/user-attachments/assets/e9508741-1346-49fe-8691-32a1236e3d24" />
 
@@ -86,11 +86,11 @@ location /PROD/ {
 
 #### 6: Run the following command to verify that our configuration file is correct:
 
-```nginx -t ```
+``` nginx -t ```
 
 #### 7. Restart Nginx backend
 
-```synosystemctl restart nginx ```
+``` synosystemctl restart nginx ```
 
 
 
