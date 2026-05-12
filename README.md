@@ -104,9 +104,13 @@ To run the script you have to be on the Broadcom VPN and have Powershell install
 
 Download the script [https://github.com/dannystettler/VCF-Lab/blob/main/setup_vcf9x_offline_depot.ps1]
 
+After downloaded transfer the complete folder structure to the prepared webserver the direectory PROD needs to be the first layer under the document root. 
 
 
 ## Nested Host Preparation
+
+
+
 
 ## Install and cofigure the VCF Installer Appliance
 
