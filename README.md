@@ -119,10 +119,27 @@ The host hosting the nested ESX VMs must have:
   - MAC address changes: Accept
   - Forged transmits: Accept
 
-
 ### Create VM Object
+- Guest OS: Other - VMware ESXi 8.0 or later
+- CPU: 12
+  - Hardware virtualization: activate Expose hardware assisted virtualization to the guest OS
+- Memory: 96 GB
+- Harddisk:
+  - Disk1: 32 GB (thin)
+  - Disk2: 900 GB (thin)
+- Network:
+  - Nic1: Trunk Portgroup (4095)
+  - Nic2: Trunk Portgroup (4095)
+- CD/DVD Drive: Datastore ISO with desired version of ESXi Build
 
+### Base configuration of ESXi on console
 
+- configure static IP address
+- configure name with FQDN
+- configure DNS Servers and DNS suffix
+- activate SSH
+
+### Transfer VIB for VSAN ESA mockup
 
 
 
