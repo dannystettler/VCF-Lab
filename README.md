@@ -10,3 +10,7 @@ There are several ways for hosting a Offline Depot. My preferred way is to use m
 
 ### Download the VCF Build Files
 
+## Nested Host Preparation
+
+## Install and cofigure the VCF Installer Appliance
+
