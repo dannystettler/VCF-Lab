@@ -109,6 +109,23 @@ After downloaded transfer the complete folder structure to the prepared webserve
 
 ## Nested Host Preparation
 
+### Prerequisites
+
+The host hosting the nested ESX VMs must have:
+- running ESX 8.0 U3 or later
+- a trunc portgroup configured
+  - VLAN ID: all (4095)
+  - Promiscuous mode: Accept
+  - MAC address changes: Accept
+  - Forged transmits: Accept
+
+
+### Create VM Object
+
+
+
+
+
 
 
 
