@@ -171,5 +171,25 @@ reboot
 ```
 
 
-## Install and configure the VCF Installer Appliance
+## Install and configure the VCF Installer Appliance (allow HTTP-Only Depot)
+
+Deploy the OVA from the depot path /PROD/COMP/SDDC_MANAGER_VCF
+Use THIN as diskmode and make sure the DNS and NTP Setting are correct and the hostname can be DNS resolved in both ways.
+
+Once the appliance has been deployed a modification needs to be done to enable the use of an HTTP-Only Offline Depot.
+
+SSH into the appliance with:  ``` ssh vcf@<vcf-installer-ip>  ``` and switch to root with ``` su - ```
+
+then
+```
+echo "lcm.depot.adapter.httpsEnabled=false" >> /opt/vmware/vcf/lcm/lcm-app/conf/application-prod.properties
+systemctl restart lcm
+```
+
+
+
+
+
+
+
 
