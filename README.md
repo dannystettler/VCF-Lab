@@ -45,7 +45,8 @@ View the contents of the file from Step 2
 ```cat <file name>```
 
 and look for the very last include statement, which in my example is:
-<img width="1073" height="456" alt="image" src="https://github.com/user-attachments/assets/7bb0d108-ade1-4569-8b5e-2d6bf8664892" />
+<img width="1086" height="462" alt="image" src="https://github.com/user-attachments/assets/83f60ab1-a5e5-4189-8e1b-adc643321fdc" />
+
 
 
 #### 4. 
