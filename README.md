@@ -139,6 +139,11 @@ The host hosting the nested ESX VMs must have:
 - configure DNS Servers and DNS suffix
 - activate SSH
 
+### Configure NTP using Webclient
+
+<img width="1540" height="707" alt="image" src="https://github.com/user-attachments/assets/e1b84ae8-04d1-4a22-a691-0cfa354f04c0" />
+
+
 ### Transfer VIB for VSAN ESA mockup
 When you need to cheat the VCF System because you don't have a certified VSAN ESA Node there are a few options. In the past this was achieved by installing a small VIB on every host to satify the compatibility checks. The neweer version is to configure the VCF installer or the SDDC Manager to skip these tests. (see https://williamlam.com/2025/09/enhancement-in-vcf-9-0-1-to-bypass-vsan-esa-hcl-host-commission-10gbe-nic-check.html)
 
@@ -147,10 +152,17 @@ Use this file: [https://github.com/dannystettler/VCF-Lab/blob/main/nested-vsan-e
 
 ```   scp nested-vsan-esa-mock-hw.vib root@<esx-host-ip>:/tmp   ```
 
-### 
+### SSH into host to install VIB, recreate the server certificate and perform a final reboot 
+Login with root into ESX and perform the following commands
 
+```
+esxcli software acceptance set --level CommunitySupported
+esxcli software vib install -v /tmp/nested-vsan-esa-mock-hw.vib --no-sig-check
 
+/sbin/generate-certificates
 
+reboot
+```
 
 
 ## Install and cofigure the VCF Installer Appliance
