@@ -38,6 +38,11 @@ grep <port number of webservice> *
 ```
 <img width="750" height="55" alt="image" src="https://github.com/user-attachments/assets/7aafd490-2e0e-4e10-90cc-3ff63d0fb80d" />
 
+#### 3. Retrieve content of file (*.w3conf)
+```cat <file name>```
+
+
+
 
 https://williamlam.com/2026/01/disable-http-range-requests-on-synology-webstation-apache-or-nginx.html
 
