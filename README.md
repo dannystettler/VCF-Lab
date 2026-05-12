@@ -26,7 +26,8 @@ There are several ways for hosting a Offline Depot. My preferred way is to use m
 Since VCF 9.1 retrieving data from the Depot requires to deactivate "HTTP Range Request". On Synology it's not very straight forward.
 
 #### 1. SSH into Syno and switch to root provileges
-''' ssh admin\
+```
+sdfsdfsdf
 
 
 
