@@ -27,7 +27,7 @@ Since VCF 9.1 retrieving data from the Depot requires to deactivate "HTTP Range 
 
 #### 1. SSH into Syno and switch to root provileges
 ```
-ssh admin@'<syno-ip>'
+ssh <adminaccount>@<syno-ip>
 sudo su -
 ```
 
