@@ -40,7 +40,6 @@ grep <port number of webservice> *
 
 
 #### 3. Retrieve content of file (*.w3conf)
-View the contents of the file from Step 2
 
 ```cat <file name>```
 
@@ -50,7 +49,6 @@ and look for the very last include statement, which in my example is:
 
 
 #### 4. Retrieve path to the configuration file which needs to be created and modified
-Enter
 
 ```cat ./../<path from file>```
 
@@ -86,6 +84,13 @@ location /PROD/ {
 }
 ```
 
+#### 6: Run the following command to verify that our configuration file is correct:
+
+```nginx -t ```
+
+#### 7. Restart Nginx backend
+
+```s ynosystemctl restart nginx ```
 
 
 
