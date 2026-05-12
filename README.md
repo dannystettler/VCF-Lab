@@ -22,6 +22,15 @@ There are several ways for hosting a Offline Depot. My preferred way is to use m
   - Portal type: *Port-based*
   - Port: HTTP: (free portnumber -> e.g 9100)
 
+## Disable HTTP Range Requests
+Since VCF 9.1 retrieving data from the Depot requires to deactivate "HTTP Range Request". On Synology it's not very straight forward.
+
+
+
+
+
+
+
 https://williamlam.com/2026/01/disable-http-range-requests-on-synology-webstation-apache-or-nginx.html
 
 
