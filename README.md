@@ -30,7 +30,7 @@ Since VCF 9.1 retrieving data from the Depot requires to deactivate "HTTP Range 
 ssh <adminaccount>@<syno-ip>
 sudo su -
 ```
-#### 2. Search right config file
+#### 2. Find Web Portal configuration file 
 
 ```
 cd /usr/local/etc/nginx/sites-available
