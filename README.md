@@ -49,14 +49,42 @@ and look for the very last include statement, which in my example is:
 
 
 
-#### 4. Get content of the retrieved conf file path
-Retrieve the content from the just retreived path information by:
+#### 4. Retrieve path to the configuration file which needs to be created and modified
+Enter
 
 ```cat ./../<path from file>```
 
 <img width="1436" height="179" alt="image" src="https://github.com/user-attachments/assets/e9508741-1346-49fe-8691-32a1236e3d24" />
 
+This path is now the location the new configuration file needs to be created and modified
 
+
+#### 5. Create Parent Diretory and user.conf file
+
+```
+mkdir -p /usr/local/etc/nginx/conf.d/<parentdirectory>
+vi /usr/local/etc/nginx/conf.d/<parentdirectory>/user.conf
+```
+
+and past the folwoing content into the file. Ajust the path as needed:
+
+```
+location /PROD/ {
+    alias /volume1/web/PROD/;
+    autoindex on;
+
+    # Disable Byte-Range requests
+    max_ranges 0;
+    set $http_range "";
+    add_header Accept-Ranges "none" always;
+
+    # Performance
+    gzip off;
+
+    # Ensure Nginx looks for the file before giving up
+    try_files $uri $uri/ =404;
+}
+```
 
 
 
