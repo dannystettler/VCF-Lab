@@ -39,7 +39,7 @@ grep <port number of webservice> *
 <img width="750" height="55" alt="image" src="https://github.com/user-attachments/assets/7aafd490-2e0e-4e10-90cc-3ff63d0fb80d"  />
 
 #### 3. Retrieve content of file (*.w3conf)
-now view the contents of the file from Step 2 and look for the very last include statement, which in my example is
+View the contents of the file from Step 2 and look for the very last include statement, which in my example is
 
 ```cat <file name>```
 
