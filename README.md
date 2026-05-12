@@ -112,7 +112,11 @@ After downloaded transfer the complete folder structure to the prepared webserve
 
 ### Prerequisites
 
-The host hosting the nested ESX VMs must have:
+Network:
+- Jumbo frames: enabled
+- VLANs:  at least 4-5 VLANs available for Management (Host and VMs), VSAN, VMOTION and Overlay. More as needed
+
+Host running the nested ESX VMs must have:
 - running ESX 8.0 U3 or later
 - a trunc portgroup configured
   - VLAN ID: all (4095)
@@ -167,5 +171,5 @@ reboot
 ```
 
 
-## Install and cofigure the VCF Installer Appliance
+## Install and configure the VCF Installer Appliance
 
