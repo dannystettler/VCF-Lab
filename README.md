@@ -84,6 +84,8 @@ location /PROD/ {
 }
 ```
 
+remember to save the file with ``` ESC :wq  `` 
+
 #### 6: Run the following command to verify that our configuration file is correct:
 
 ```  nginx -t  ```
