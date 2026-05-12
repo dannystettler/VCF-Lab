@@ -132,6 +132,7 @@ The host hosting the nested ESX VMs must have:
   - Nic1: Trunk Portgroup (4095)
   - Nic2: Trunk Portgroup (4095)
 - CD/DVD Drive: Datastore ISO with desired version of ESXi Build
+  - use the file from the Depot located /PROD/COMP/ESX_HOST/VMware-VMvisor-Installer-9.x.y.z.aaaaaaa.iso
 
 ### Base configuration of ESXi on console
 
