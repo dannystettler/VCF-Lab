@@ -92,30 +92,7 @@ location /PROD/ {
 
 ```  synosystemctl restart nginx  ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://williamlam.com/2026/01/disable-http-range-requests-on-synology-webstation-apache-or-nginx.html
-
+Source with full informatiopn:  https://williamlam.com/2026/01/disable-http-range-requests-on-synology-webstation-apache-or-nginx.html
 
 
 
