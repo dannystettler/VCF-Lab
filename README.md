@@ -35,7 +35,7 @@ sudo su -
 ```
 cd /usr/local/etc/nginx/sites-available
 grep <port number of webservice> *
-
+```
 
 
 https://williamlam.com/2026/01/disable-http-range-requests-on-synology-webstation-apache-or-nginx.html
