@@ -1,3 +1,7 @@
-# Setting up a VCF LAB
+# Setting up a VCF9.x LAB
 
 These instructions are covering the parts required for setting up a nested VCF Homelab. Main scope is to use a "manual" setup using the VCF Installer. However, it is also useful when you consider the use of Holodeck. 
+
+## Offline Depot
+
+There are several ways for hosting a Offline Depot. My preferred way is to use my Synology for it. It will be a HTTP Depot.
