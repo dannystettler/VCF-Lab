@@ -66,7 +66,7 @@ mkdir -p /usr/local/etc/nginx/conf.d/<parentdirectory>
 vi /usr/local/etc/nginx/conf.d/<parentdirectory>/user.conf
 ```
 
-and past the folwoing content into the file. Ajust the path as needed:
+and paste the folwoing content into the file. Ajust the path as needed:
 
 ```
 location /PROD/ {
