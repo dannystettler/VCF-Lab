@@ -170,6 +170,9 @@ esxcli software vib install -v /tmp/nested-vsan-esa-mock-hw.vib --no-sig-check
 reboot
 ```
 
+** Now it's a good moment to snapshot or to templatize the VM ** 
+
+
 
 ## Install and configure the VCF Installer Appliance (allow HTTP-Only Depot)
 
