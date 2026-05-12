@@ -1,4 +1,4 @@
-$vcfVersion = "9.1.0.0-c7"
+$vcfVersion = "9.1.0.0"
 $vcfToplevelRootDir = "/Users/dstettler/Downloads/VCF-DEPOT/$vcfVersion"
 
 $vcfInstallBinaries = $true
@@ -28,11 +28,7 @@ switch ($vcfVersion) {
     "9.0.0.0" {$BuildID = "bora-24755599"}
     "9.0.1.0" {$BuildID = "bora-24966933"}
     "9.0.2.0" {$BuildID = "bora-25152757"}
-    "9.1.0.0-c4" {$BuildID = "bora-25262019"} #EA Cycle 4
-    "9.1.0.0-c5" {$BuildID = "bora-25290490"} #EA Cycle 5
-    "9.1.0.0-c6" {$BuildID = "bora-25319540"} #EA Cycle 6
-    "9.1.0.0-c7" {$BuildID = "bora-25377994"} #EA Cycle 7 / RTM Release Candidate
-    "9.1.0.0" {$BuildID = "bora-XXXXXXX"}
+    "9.1.0.0" {$BuildID = "bora-25377994"} #EA Cycle 7 / RTM Release Candidate / GA
 }
 #remove potential sub-build from input var
 $vcfVersion = $vcfVersion.split('-')[0]
