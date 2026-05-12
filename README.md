@@ -151,7 +151,7 @@ Host running the nested ESX VMs must have:
 
 
 ### Transfer VIB for VSAN ESA mockup
-When you need to cheat the VCF System because you don't have a certified VSAN ESA Node there are a few options. In the past this was achieved by installing a small VIB on every host to satify the compatibility checks. The neweer version is to configure the VCF installer or the SDDC Manager to skip these tests. (see https://williamlam.com/2025/09/enhancement-in-vcf-9-0-1-to-bypass-vsan-esa-hcl-host-commission-10gbe-nic-check.html)
+When you need to cheat the VCF System because you don't have a certified VSAN ESA Node there are a few options. In the past this was achieved by installing a small VIB on every host to satisfy the compatibility checks. The latest option is to configure the VCF installer or the SDDC Manager to skip these tests. (see https://williamlam.com/2025/09/enhancement-in-vcf-9-0-1-to-bypass-vsan-esa-hcl-host-commission-10gbe-nic-check.html)
 
 However, I'm still a fan to just installing the VIB, so I just stick with this solution for the moment. The procedure is quite simple. Transfer the VIB to the host ans install it with a SSH session. done.
 Use this file: [https://github.com/dannystettler/VCF-Lab/blob/main/nested-vsan-esa-mock-hw.vib] and trasfer it to the VM Host
