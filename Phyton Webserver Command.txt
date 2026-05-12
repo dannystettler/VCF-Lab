@@ -1,1 +1,0 @@
-python3 http_server_auth.py --bind 172.16.10.52 --user vcf --password vcf123! --directory 9.1.0.0-c61 8888
