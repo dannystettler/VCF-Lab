@@ -1,6 +1,13 @@
 $vcfVersion = "9.1.0.0"
 $vcfToplevelRootDir = "/Users/dstettler/Downloads/VCF-DEPOT/$vcfVersion"
 
+switch ($vcfVersion) {
+    "9.0.0.0" {$BuildID = "bora-24755599"}
+    "9.0.1.0" {$BuildID = "bora-24966933"}
+    "9.0.2.0" {$BuildID = "bora-25152757"}
+    "9.1.0.0" {$BuildID = "bora-25377994"} #EA Cycle 7 / RTM Release Candidate / GA
+}
+
 $vcfInstallBinaries = $true
 $vcfPatchBinaries = $true
 
@@ -24,12 +31,6 @@ $vcfComponents = @(
     "VCF_SALT_RAAS"
 )
 
-switch ($vcfVersion) {
-    "9.0.0.0" {$BuildID = "bora-24755599"}
-    "9.0.1.0" {$BuildID = "bora-24966933"}
-    "9.0.2.0" {$BuildID = "bora-25152757"}
-    "9.1.0.0" {$BuildID = "bora-25377994"} #EA Cycle 7 / RTM Release Candidate / GA
-}
 #remove potential sub-build from input var
 $vcfVersion = $vcfVersion.split('-')[0]
 
